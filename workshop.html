@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta lang="en" charset="utf-8">
+		<meta name="viewport" content="content">
+		<link  href="final.css" type="text/css" rel="stylesheet">
+		<title>Art Of Yoga</title>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="navbar">
+				<div>
+					<header>
+						<h1>Art Of Yoga</h1>
+					</header>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="final.html">Home</a></li>
+						<li><a href="workshop.html">Workshops</a></li>
+						<li><a href="event.html">Events</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+				<p id="callus"><b>Call Us Now<br>
+					1-800-555-1321</b>
+				</p>
+			</div>
+
+			<div id="registerForm">
+				<h1> Register for Worhsops Now!</h1>
+				<h2>
+					Before registering for a worhsop , take a look<br> the Events Page for more information about<br> different worksops and their details. 
+				</h2>
+
+				<h3>
+					Please fill out all required fields before registering.
+				</h3>
+
+				<label for="FName">*First Name</label>
+
+				<input type="text" name="Fname" id="Fname" 
+				required="required">
+
+				<label for="LName">*Last Name</label>
+
+				<input type="text" name="LName" id="LName" 
+				required="required">
+
+
+				<label for="email">*Email</label>
+
+				<input type="email" name="email" size="35" 
+				 id="email" required="required">
+
+				 <label for="registrationDate">*Registration Date</label>
+
+				 <input type="date" name="registrationDate" size="35" 
+				 id="registrationDate" required="required">
+
+				<label for="workshop">*Woirkshop</label>
+
+				<input   type="text" name="workshop" id="workshop"   list="workshops" required="required">
+
+				 <datalist id="workshops">
+				 	<option value="Intro to Yoga"></option>
+				 	<option value="Beginner"></option>
+				 	<option value="Intermediate"></option>
+				 	<option value="Advanced"></option>
+					<option value="Master"></option>
+				 </datalist>
+
+
+				 <label for="comments">Comments</label>
+				 <textarea id="comments" rows="3" cols="32">
+				 	
+				 </textarea>
+
+
+				 <input type="submit" name="registerButton" id="registerButton" value="Register">
+			</div>
+
+			<div id="footer">
+				<footer id="links">
+					<ul>
+						<li><a href="final.html">Home</a></li>
+						<li><a href="workshop.html">Workshops</a></li>
+						<li><a href="event.html">Events</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+					<span id="copyright"><p><i>copyright Art of Yoga 2019</i></p></span>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
