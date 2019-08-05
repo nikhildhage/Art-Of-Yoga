@@ -1,0 +1,221 @@
+body{
+
+}
+
+#wrap{
+	background-color: #00FFFF;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+header{
+	margin: 0;
+	padding: 25px;
+	background-color: #FFFFFF;
+	background-image: url(logo/lotusYoga.jpeg);
+	background-repeat:no-repeat;
+	background-position: left;
+	background-size: 210px;
+	float:left;
+}
+
+
+h1{
+	padding-left: 300px;
+	text-align: left;
+	color: #000000;
+	font-size: 2em;
+}
+
+
+#navbar{
+	background-color: #FFFFFF;
+}
+
+
+
+#navbar nav {
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+#navbar nav li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 20px;
+}
+
+#navbar nav a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 2em;
+}
+nav p{
+	vertical-align: top;
+}
+
+#registerForm{
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 20px;
+}
+
+#registerForm h3{
+	color: red;
+	text-align: left;
+	margin-left: 190px;
+}
+
+
+#Form{
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 20px;
+}
+#Form h2{
+	color: red;
+	text-align: left;
+	margin-left: 190px;
+
+}
+
+label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 130px;
+	padding-right: 20px;
+}
+
+input, textarea{
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type=submit]{
+	margin-left: 130px;
+	background-color: yellow;
+	font-size: 1.2em;
+}
+#aboutUs p{
+	margin-left: 140px;
+
+}
+
+#navbar a:hover{
+	color:orange;
+
+}
+#callus{
+	color: #000000;
+	text-align: right;
+}
+
+table{
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	 width: auto;
+	 height: 250px;
+	 margin-left: 20px;
+	 padding-bottom: 20px;
+}
+table td{
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	padding: 5px;
+	text-align: center;
+}
+table thead{
+	background-color: #000000;
+}
+table thead tr{
+	color: yellow;
+} 
+tbody{
+	background-color: #00FFFF
+}
+
+#events{
+	background-color: #D3D3D3;
+	font-size: 2em;
+}
+#events h2{
+	margin-left: 20px;
+}
+
+#events ul{
+	margin-left: 60px;
+}
+#events #tableHeading{
+	margin-left: 200px;
+}
+
+main{
+	background-color: #FFFFFF;
+}
+main p{
+	margin-left: 20px;
+}
+
+section{
+	color: #000000;
+	text-align: left;
+	font-size: 2em;
+	margin: 0;
+	padding: 20px;
+}
+
+
+#container{
+	height: 600px;
+	width: 100%;
+	background-color: #C0C0C0;
+	float: left;
+	background-image: url(images/beautifulYoga.jpeg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
+	font-size: 2em;
+}
+#container p{
+	margin-left: 60px;
+}
+#container h2{
+	margin-left: 30px;
+}
+
+#footer{
+	background-color:orange;
+	padding: 20px;
+}
+#footer li{
+	list-style: none;
+	margin-bottom: 5px;
+	
+}
+#footer li a{
+	
+	color: #000000;
+	text-decoration: none;
+	
+}
+
+#footer a:hover{
+	color: #FFFFFF;
+}
+
+#links{
+	font-size: 2em;
+}
+
+#copyright{
+	color: #000000;
+	text-align: center;
+}
